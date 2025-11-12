@@ -1,0 +1,207 @@
+/* mobile phone  */
+@media (max-width:600px ){
+
+
+/* *{
+    width: 100%;
+} */
+
+.sub-h{
+    font-size: 22px;
+    line-height: 22px;
+}
+.heading{
+    font-size: 30px;
+    line-height: 30px;
+}
+img{
+    max-width: 100%;
+}
+.underline{
+    width: 15%;
+}
+.btn{
+    width: 150px;
+    padding: 10px;
+    margin-top: 10px;
+}
+p{
+    font-size: 13px;
+    line-height: 13px;
+}
+
+/* layout  */
+[class*="col-"]{
+    float: left;
+}
+
+.col-s-1{width: 8.33%;}
+.col-s-2{width: 16.66%;}
+.col-s-3{width: 25%;}
+.col-s-4{width: 33.33%;}
+.col-s-5{width: 41.66%;}
+.col-s-6{width: 50%;}
+.col-s-7{width: 58.33%;}
+.col-s-8{width: 66.33%;}
+.col-s-9{width: 75%;}
+.col-s-10{width: 83.33%;}
+.col-s-11{width: 91.33%;}
+.col-s-12{width: 100%;}
+
+
+
+/* ============Header part ============= */
+header{
+    background-color: #87509c;
+    padding:0px 0px;
+    text-align: center;
+}
+.navigation{
+    padding: 20px 0px;
+}
+.manu{
+    padding: 10px;
+}
+.manu ul{
+    text-align: center;
+}
+.manu ul li {
+    list-style: none;
+    display: inline-block;
+}
+.manu ul li  a{
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+}
+.manu ul li a:hover{
+    background-color: #643a79;
+}
+.hero-part{
+    text-align: center;
+    color: #fff;
+}
+.hero-part h1{
+    font-size: 25px;
+    padding:00px 0px 0px 0px;
+}
+header .btn{
+    background-color: #eb7d4b;
+    margin-bottom: 20px;
+}
+
+/* =============service-part=========== */
+#service .box-part .box img {
+    height: 100px;
+}
+#service .box-part{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#service .box{
+    padding: 0px 0px 30px ;
+    margin: 0px;
+}
+
+/* =============team section========= */
+
+#team{
+    background-color: #e7f1f8;
+    color: #27283d;
+}
+.des{
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 15px;
+    color: #30bae7;
+}
+.icon{
+    margin-top: 15px;
+}
+.icon i{
+    font-size: 20px;
+    background-color: #bdd1df;
+    color: white;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0px 2px;
+    padding: 10px;
+    text-align: center;
+    transition: ease-in 0.2s;
+}
+.icon i:hover{
+    background-color: #27283d;
+    color: white;
+}
+
+/* =============team section=========== */
+#team .box-part .box img{
+    width: 120px;
+}
+.icon i{
+    font-size: 10px;
+    width: 30px;
+}
+.icon{
+    margin-bottom: 30px;
+}
+/* =================about section========= */
+#about .box-part p{
+    width: 150px;
+    font-style: italic;
+    text-align: left;
+    line-height: 25px;
+}
+#about .box-part .box img{
+    max-width: 40px;
+}
+#about  .box-part .text h3{
+    padding: 0px;
+}
+.s-h{
+    padding: 0px 0px 20px;
+}
+/* =======contact section========= */
+#contact .name-part input{
+    width: 200px;
+    height: 35px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    background-color: #273a71;
+    color: #fff;
+    font-size: 13px;
+    line-height: 13px;
+    padding-left: 10PX;
+}
+#contact .email input{
+    width: 200px;
+    height: 35px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    background-color: #273a71;
+    font-size: 13px;
+    line-height: 13px;
+    padding-left: 10PX;
+}
+#contact .mg textarea{
+    background-color: #273a71;
+    width: 420px;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 13px;
+}
+/* =========footer section=== */
+#footer{
+    padding: 20px 0px;
+}
+#footer  ul  li a{
+    font-size: 15px;
+    line-height: 14px;
+    margin: 0px 4px ;
+}
+}

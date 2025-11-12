@@ -1,0 +1,56 @@
+@media(min-width:993px)  and (max-width:1200px){
+ 
+/* ==========header section  ========= */
+header{
+    padding: 0px 50px;
+}
+/* ===========team section ========= */
+.icon i{
+    font-size: 15px;
+    background-color: #bdd1df;
+    color: white;
+    width: 35px;
+    border-radius: 50%;
+    margin: 0px 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ==========portfolio  section =========== */
+#portfolio .box{
+    padding: 20px;
+}
+#portfolio .box img{
+    width: 400px;
+}
+/* =========contact section======== */
+#contact .name-part input{
+    width: 250px;
+    height: 35px;
+    margin-left: 200px;
+    box-sizing: border-box;
+    background-color: #273a71;
+    color: #fff;
+    font-size: 15px;
+    padding-left: 10PX;
+}
+#contact .email input{
+    width: 250px;
+    height: 35px;
+    margin-right: 200px;
+    box-sizing: border-box;
+    background-color: #273a71;
+    font-size: 13px;
+    line-height: 13px;
+    padding-left: 10PX;
+}
+#contact .mg textarea{
+    background-color: #273a71;
+    width: 510px;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 13px;
+}
+}

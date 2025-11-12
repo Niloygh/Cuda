@@ -1,0 +1,295 @@
+/* Link */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+/* global-CSS */
+*{
+    margin: 0;
+    padding: 0%;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+
+p{
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 300;
+    
+}
+section{
+    text-align: center;
+    padding: 75px 0px;
+}
+.writing-part{
+    margin-bottom: 50px;
+}
+.btn{
+    width: 200px;
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: #17c2a4;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-top: 50px;
+    transition: ease-in 0.2s;
+
+}
+.btn:hover{
+    box-shadow: 0px 2px 2px #14a58c;
+}
+
+.box{
+    padding: 0px 25px;
+}
+.heading{
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase ;
+    letter-spacing: 4px;
+}
+.sub-h{
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    margin-top:10px;
+}
+.underline{
+    border-top: 3px solid rgba(0, 0, 0, 0.2);
+    width: 5%;
+    margin: 10px auto;
+}
+/* ==============layout=============== */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+
+/* ========grid view===========  */
+
+[class*="col-"]{
+    float: left;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.33%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.33%;}
+.col-12{width: 100%;}
+
+
+
+
+
+
+/* ============Header part ============= */
+header{
+    background-color: #87509c;
+    padding:0px 100px;
+}
+.navigation{
+    padding: 30px 0px;
+}
+.manu{
+    padding: 5px;
+}
+.manu ul{
+    text-align: end;
+}
+.manu ul li {
+    list-style: none;
+    display: inline-block;
+}
+.manu ul li  a{
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+}
+.manu ul li a:hover{
+    background-color: #643a79;
+}
+.hero-part{
+    text-align: center;
+    color: #fff;
+}
+.hero-part h1{
+    padding: 200px 0px 0px 0px;
+}
+header .btn{
+    background-color: #eb7d4b;
+    margin-bottom: 150px;
+}
+
+
+/* =============service-part=========== */
+#service{
+    background-color: #17c2a4;
+    color: white;
+}
+#service .box-part img {
+    height: 120px;
+}
+/* =============team section========= */
+
+#team{
+    background-color: #e7f1f8;
+    color: #27283d;
+}
+.des{
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 15px;
+    color: #30bae7;
+}
+.icon{
+    margin-top: 15px;
+}
+.icon i{
+    font-size: 20px;
+    background-color: #bdd1df;
+    color: white;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0px 2px;
+    padding: 10px;
+    text-align: center;
+    transition: ease-in 0.2s;
+}
+.icon i:hover{
+    background-color: #27283d;
+    color: white;
+}
+/* ===========skill section  =========== */
+
+#skill{
+    background-color: white;
+    color: #3c4761;
+}
+
+/* ==============portfolio============== */
+#portfolio{
+    background-color: #ffdd99;
+    color: #393939;
+}
+#portfolio .box-part p{
+    margin: 15px 0px 40px;
+    text-transform: uppercase;
+}
+.btn-part{
+    margin-top: 50px;
+}
+.btn-part a button{
+    width:  60px;
+    padding: 5px;
+    text-transform: uppercase;
+    background-color: #ebc985;
+    color: #393939;
+    border-radius: 5px;
+    transition: ease-in 0.2s;
+}
+.btn-part a button:hover{
+    background-color: #fff;
+}
+
+/* ===============about================= */
+#about{
+    background-color: #d74680;
+    color: #fff;
+}
+#about .box-part p{
+    width: 300px;
+    font-style: italic;
+    text-align: left;
+    line-height: 25px;
+}
+#about  .box-part .text h3{
+    text-align: left;
+    padding: 10px 0px 0px 20px  ;
+}
+.s-h{
+    text-align: left;
+    padding-left: 20px;
+    color: #ffdd99;
+    padding-bottom: 100px;
+}
+
+/* ===============contact part=================== */
+#contact{
+    background-color: #3c5499;
+    color: #fff;
+}
+#contact .name-part input{
+    width: 250px;
+    height: 35px;
+    margin-left: 300px;
+    box-sizing: border-box;
+    background-color: #273a71;
+    color: #fff;
+    font-size: 15px;
+    padding-left: 10PX;
+}
+#contact .name-part input::placeholder{
+    color: #fff;
+}
+
+#contact .email input{
+    width: 250px;
+    height: 35px;
+    margin-right: 300px;
+    box-sizing: border-box;
+    background-color: #273a71;
+    font-size: 15px;
+    padding-left: 10PX;
+}
+#contact .email input::placeholder{
+    color: #fff;
+}
+#contact .mg textarea{
+    background-color: #273a71;
+    width: 556px;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px
+}
+#contact .mg textarea::placeholder{
+    color: #fff;
+}
+#contact .form-part .btn{
+    background-color: #30bae7;
+}
+
+/* ===================footer part=================== */
+#footer{
+    background-color: #344b8e;
+    text-align: center;
+    padding: 20px;
+}
+#footer ul  li{
+    list-style: none;
+    display: inline-block;
+}
+#footer  ul  li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0px 10px ;
+}
+#footer  ul  li a:hover{
+    color: #30bae7;
+}

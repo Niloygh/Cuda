@@ -1,0 +1,121 @@
+@media ( min-width: 601px ) and (max-width:992px){
+
+img{
+    max-width: 100%;
+}
+
+/* layout  */
+[class*="col-"]{
+    float: left;
+}
+
+.col-s-1{width: 8.33%;}
+.col-s-2{width: 16.66%;}
+.col-s-3{width: 25%;}
+.col-s-4{width: 33.33%;}
+.col-s-5{width: 41.66%;}
+.col-s-6{width: 50%;}
+.col-s-7{width: 58.33%;}
+.col-s-8{width: 66.33%;}
+.col-s-9{width: 75%;}
+.col-s-10{width: 83.33%;}
+.col-s-11{width: 91.33%;}
+.col-s-12{width: 100%;}
+
+
+
+/* ============Header part ============= */
+header{
+    background-color: #87509c;
+    padding:0px 50px;
+    text-align: center;
+}
+.navigation{
+    padding: 25px 0px 20px;
+}
+.manu{
+    padding: 10px;
+}
+.manu ul{
+    text-align: center;
+}
+.manu ul li {
+    list-style: none;
+    display: inline-block;
+}
+.manu ul li  a{
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+}
+.manu ul li a:hover{
+    background-color: #643a79;
+}
+.hero-part{
+    text-align: center;
+    color: #fff;
+}
+.hero-part h1{
+    font-size: 25px;
+    padding:00px 0px 0px 0px;
+}
+header .btn{
+    background-color: #eb7d4b;
+    margin-bottom: 40px;
+}
+
+/* ========= service section =========== */
+#service .box-part{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* ============team section========== */
+#team .box-part .icon{
+    margin-bottom: 50px;
+}
+/* ============about  section ========== */
+#about .box-part p{
+    width: 200px;
+}
+#about .box-part .box img{
+    max-width: 60px;
+}
+/* =========centact section ======== */
+#contact .name-part input{
+    width: 250px;
+    height: 35px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    background-color: #273a71;
+    color: #fff;
+    font-size: 13px;
+    line-height: 13px;
+    padding-left: 10PX;
+}
+#contact .email input{
+    width: 250px;
+    height: 35px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    background-color: #273a71;
+    font-size: 13px;
+    line-height: 13px;
+    padding-left: 10PX;
+}
+#contact .mg textarea{
+    background-color: #273a71;
+    width: 520px;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 13px;
+}
+/* ===========footer section ========= */
+#footer  ul  li a{
+    font-size: 17px;
+    line-height: 17px;
+    margin: 0px 5px ;
+}
+}
+
